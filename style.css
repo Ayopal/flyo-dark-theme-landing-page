@@ -107,23 +107,24 @@ button {
     align-items: center;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 80px;
+    margin-bottom: 5.5em;
 }
 
 .case1 {
-    margin-bottom: 70px;
+    margin-bottom: 5em;
 }
 
 h3 {
     color: #fff;
     font-family: Open Sans;
-    margin: 20px auto;
+    margin: 1.25em auto;
     font-weight: 700;
 }
 
 .description {
     color: #ccc;
     font-family: Open Sans;
+    font-weight: 700;
     font-size: 12px;
 }
 
@@ -131,6 +132,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5.623em;
 }
 
 .illustration2 {
@@ -143,10 +145,59 @@ h3 {
 }
 
 .para {
-    margin: 15px auto;
+    margin: 0.94em auto;
 }
 
 .link a {
     color: #ccc;
-    font: 14px;
+    font: 0.875rem;
+}
+
+.testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.7em;
+}
+
+.testimony .test {
+    background: hsl(219, 30%, 18%);
+    margin: auto 1.1em;
+    text-align: start;
+    padding: 2.5em 1.8em;
+    z-index: 1;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 0.938em;
+}
+
+.profile img {
+    width: 8%;
+    border-radius: 50%;
+}
+
+.pdetail {
+    display: block;
+    margin-left: 0.938em;
+    line-height: 1.5;
+}
+
+h5 {
+    color: #ccc;
+    font-family: Open Sans;
+    font-size: 0.625rem;
+}
+
+h6 {
+    color: rgb(197, 193, 193);
+    font-family: Open Sans;
+    font-size: 0.4375rem;
+}
+
+.quote {
+    transform: translate(-850%, 32%);
+    z-index: -1;
 }
