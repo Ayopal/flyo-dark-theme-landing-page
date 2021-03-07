@@ -90,9 +90,9 @@ h1 {
     color: #ccc;
 }
 
-button {
+.cta1 {
     background: hsl(176, 68%, 64%);
-    padding: 1em 6em;
+    padding: 1em 5em;
     border-radius: 25px;
     margin-top: 2em;
     margin-bottom: 8em;
@@ -157,7 +157,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5.7em;
+    margin-bottom: 3em;
 }
 
 .testimony .test {
@@ -166,6 +166,7 @@ h3 {
     text-align: start;
     padding: 2.5em 1.8em;
     z-index: 1;
+    border-radius: 5px;
 }
 
 .profile {
@@ -200,4 +201,53 @@ h6 {
 .quote {
     transform: translate(-850%, 32%);
     z-index: -1;
+}
+
+form {
+    width: 800px;
+    background: hsl(217, 28%, 15%);
+    transform: translate(25%, 40%);
+    border-radius: 5px;
+    height: 240px;
+}
+
+h2 {
+    color: #fff;
+    padding-top: 35px;
+}
+
+form p {
+    margin-top: 15px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.text {
+    padding: 1em 8em;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta2 {
+    background: hsl(176, 68%, 64%);
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#validation {
+    color: red;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 500;
+    transform: translate(-25%, -90%);
 }
