@@ -132,7 +132,6 @@
             
             .product_content {
                 text-align: start;
-                margin-left: 3.5em;
             }
             
             .para {
@@ -326,29 +325,59 @@
                 cursor: pointer;
             }
             
-            @media(max-width: 600px) {
+            @media(max-width: 675px) {
+                nav ul li a {
+                    font-size: 0.8rem;
+                }
+                nav ul li {
+                    margin-left: 3em;
+                }
+                .logo {
+                    width: 5rem;
+                    cursor: pointer;
+                }
                 .wrapper {
-                    margin: auto 3em;
-                    text-align: center;
+                    margin: auto 2em;
+                    overflow-x: hidden;
+                }
+                .illustration1 {
+                    width: 90%;
+                }
+                h1 {
+                    color: #fff;
+                    font-family: 'Cabin', sans-serif;
+                    font-weight: 700;
+                    margin-bottom: 0.7em;
+                    font-size: 2rem;
+                }
+                .prcontent {
+                    font-size: 1.2rem;
+                }
+                .subhead {
+                    font-size: 1rem;
+                }
+                .mobile_break {
+                    display: none;
+                }
+                .mbview {
+                    display: inline;
                 }
                 .case {
                     display: block;
                 }
                 .productive_page {
                     display: block;
+                    margin: auto 0;
+                    margin-bottom: 2em;
                 }
-                nav ul li a {
-                    font-size: 0.8rem;
-                }
-                .logo {
-                    width: 5rem;
-                    cursor: pointer;
-                }
-                .illustration1 {
-                    width: 80%;
+                .description {
+                    color: #ccc;
+                    font-family: Open Sans;
+                    font-weight: 700;
+                    font-size: 1rem;
                 }
                 .illustration2 {
-                    width: 80%;
+                    width: 90%;
                 }
                 .testimony {
                     display: block;
