@@ -302,3 +302,28 @@ footer li {
 .con2 {
     margin-bottom: 15px;
 }
+
+.sociaIcon {
+    width: 35px;
+}
+
+.twit {
+    width: 30px;
+}
+
+.con ul {
+    display: flex;
+}
+
+.con ul li {
+    margin-left: 20px;
+    align-items: flex-start;
+}
+
+.con ul li a:hover,
+a:focus,
+a:active {
+    cursor: pointer;
+}
+
+@media(max-width: 600px) {}
