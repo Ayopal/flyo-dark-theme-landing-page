@@ -428,4 +428,7 @@
                     font-weight: 500;
                     transform: translate(-0%, -200%);
                 }
+                footer {
+                    display: block;
+                }
             }
