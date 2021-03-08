@@ -1,14 +1,5 @@
 /*Global*/
 
-.attribution {
-    font-size: 0.69rem;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -245,9 +236,69 @@ form p {
 }
 
 #validation {
-    color: red;
+    color: hsl(0, 100%, 63%);
     font-family: Open Sans;
     font-size: 10px;
     font-weight: 500;
     transform: translate(-25%, -90%);
+}
+
+footer .fbody {
+    background: hsl(216, 53%, 9%);
+}
+
+.foot {
+    padding-top: 8.5em;
+    margin: auto 6em;
+    padding-bottom: 20px;
+}
+
+.footer_logo {
+    width: 6%;
+    margin-bottom: 1em;
+}
+
+.foot_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+}
+
+.con {
+    display: flex;
+}
+
+.con p {
+    margin-left: 10px;
+}
+
+.attribution {
+    font-size: 0.69rem;
+    text-align: center;
+    color: #fff
+}
+
+.attribution a {
+    color: pink;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    color: #ccc
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+.lcon {
+    display: block;
+    margin-right: 0.94em;
+}
+
+.con2 {
+    margin-bottom: 15px;
 }
