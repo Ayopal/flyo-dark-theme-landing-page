@@ -119,15 +119,15 @@
                 font-size: 12px;
             }
             
+            .illustration2 {
+                width: 50%;
+            }
+            
             .productive_page {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-bottom: 5.623em;
-            }
-            
-            .illustration2 {
-                width: 45%;
             }
             
             .product_content {
@@ -338,7 +338,6 @@
                 }
                 .wrapper {
                     margin: auto 2em;
-                    overflow-x: hidden;
                 }
                 .illustration1 {
                     width: 90%;
@@ -381,19 +380,52 @@
                 }
                 .testimony {
                     display: block;
-                    justify-content: center;
-                    align-items: center;
-                    margin-bottom: 3em;
-                }
-                .foot_content {
-                    display: block;
+                    margin-bottom: 2em;
                 }
                 .testimony .test {
                     background: hsl(219, 30%, 18%);
-                    margin: auto 1.1em;
-                    text-align: start;
-                    padding: 2.5em 1.8em;
-                    z-index: 1;
+                    margin: 2em 1.1em;
+                }
+                .quote {
+                    transform: translate(-230%, 100%);
+                    z-index: -1;
+                }
+                form {
+                    width: 320px;
+                    background: hsl(217, 28%, 15%);
+                    transform: translate(-5%, 40%);
                     border-radius: 5px;
+                    height: 400px;
+                    padding: auto 20px;
+                }
+                h2 {
+                    color: #fff;
+                    padding-top: 20px;
+                }
+                .flex2 {
+                    display: block;
+                }
+                .text {
+                    padding: 1em 5em;
+                    border-radius: 25px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .cta2 {
+                    background: hsl(176, 68%, 64%);
+                    padding: 1em 6.5em;
+                    border-radius: 25px;
+                    border: none;
+                    cursor: pointer;
+                    color: #fff;
+                    font-weight: bold;
+                    margin: 20px auto;
+                }
+                #validation {
+                    color: hsl(0, 100%, 63%);
+                    font-family: Open Sans;
+                    font-size: 10px;
+                    font-weight: 500;
+                    transform: translate(-0%, -200%);
                 }
             }
