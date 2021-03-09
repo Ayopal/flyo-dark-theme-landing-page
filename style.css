@@ -3,6 +3,7 @@
             * {
                 margin: 0;
                 padding: 0;
+                box-sizing: border-box;
             }
             
             body {
@@ -82,7 +83,7 @@
             }
             
             .cta1 {
-                background: hsl(176, 68%, 64%);
+                background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
                 padding: 1em 5em;
                 border-radius: 25px;
                 margin-top: 2em;
@@ -120,7 +121,7 @@
             }
             
             .illustration2 {
-                width: 50%;
+                width: 40%;
             }
             
             .productive_page {
@@ -132,6 +133,7 @@
             
             .product_content {
                 text-align: start;
+                margin-left: 70px;
             }
             
             .para {
@@ -224,7 +226,7 @@
             }
             
             .cta2 {
-                background: hsl(176, 68%, 64%);
+                background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
                 padding: 1em 1.5em;
                 border-radius: 25px;
                 border: none;
@@ -248,7 +250,7 @@
             
             .foot {
                 padding-top: 8.5em;
-                margin: auto 6em;
+                margin: auto 5.63em;
                 padding-bottom: 20px;
             }
             
@@ -261,7 +263,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-start;
-                margin: 50px auto;
+                margin: 50px auto auto;
             }
             
             .con {
@@ -325,6 +327,10 @@
                 cursor: pointer;
             }
             
+            .mbview {
+                display: none;
+            }
+            
             @media(max-width: 675px) {
                 nav ul li a {
                     font-size: 0.8rem;
@@ -380,18 +386,19 @@
                 }
                 .testimony {
                     display: block;
-                    margin-bottom: 2em;
+                    margin-bottom: 1em;
                 }
                 .testimony .test {
                     background: hsl(219, 30%, 18%);
-                    margin: 2em 1.1em;
+                    margin-top: 2em;
+                    width: 300px;
                 }
                 .quote {
                     transform: translate(-230%, 100%);
                     z-index: -1;
                 }
                 form {
-                    width: 320px;
+                    width: 350px;
                     background: hsl(217, 28%, 15%);
                     transform: translate(-2%, 40%);
                     border-radius: 5px;
@@ -431,6 +438,11 @@
                 footer {
                     display: block;
                 }
+                .foot {
+                    padding-top: 8.5em;
+                    margin: auto 3em;
+                    padding-bottom: 10px;
+                }
                 .footer_logo {
                     width: 70%;
                     margin: 6em auto auto;
@@ -442,9 +454,16 @@
                     display: block;
                     justify-content: space-between;
                     align-items: flex-start;
-                    margin: 50px auto;
+                    justify-items: center;
+                    margin: 50px auto auto;
                 }
                 .top {
-                    margin-top: 30px;
+                    margin-top: 50px;
+                }
+                .top1 {
+                    margin-top: 20px;
+                }
+                .scon {
+                    margin: 90px 55px auto;
                 }
             }
