@@ -393,10 +393,10 @@
                 form {
                     width: 320px;
                     background: hsl(217, 28%, 15%);
-                    transform: translate(-5%, 40%);
+                    transform: translate(-2%, 40%);
                     border-radius: 5px;
                     height: 400px;
-                    padding: auto 20px;
+                    padding: 10px 20px;
                 }
                 h2 {
                     color: #fff;
@@ -430,5 +430,21 @@
                 }
                 footer {
                     display: block;
+                }
+                .footer_logo {
+                    width: 70%;
+                    margin: 6em auto auto;
+                }
+                .fbelow {
+                    margin-top: 90px;
+                }
+                .foot_content {
+                    display: block;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    margin: 50px auto;
+                }
+                .top {
+                    margin-top: 30px;
                 }
             }
